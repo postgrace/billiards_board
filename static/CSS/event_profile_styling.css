@@ -1,0 +1,131 @@
+body {
+    background-color: #1a1a1d;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('../images/wood_texture.jpg');
+}
+
+.header {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #444;
+}
+
+.container {
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    background-color: #333;
+    border: 2px solid #444;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.event-container {
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    background-color: #333;
+    border: 2px solid #444;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.profile-picture-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.profile-picture {
+    max-width: 100%;
+    height: auto;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+.event-details {
+    color: #444
+}
+
+.action-buttons {
+    margin: 1rem 0rem;
+}
+
+.btn-group>.btn {
+    border-radius: 0.25rem !important;
+}
+
+.btn-primary {
+    background-color: #4BB543;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #3e9937;
+}
+
+.btn-info {
+    background-color: #4BB543;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active {
+    background-color: #3e9937;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #da1e28;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active {
+    background-color: #ba1b23;
+    border-color: #a1191d;
+}
+
+tr {
+    border-top: 1px solid #ddd;
+    color: #ddd;
+}
+
+tr:hover {
+    color: #fff;
+}
+
+th,
+td {
+    padding: 1rem;
+}
