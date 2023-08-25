@@ -16,3 +16,5 @@ Feature backlog:
 - Add friends/view friends list
 - Team pages (create, edit, join)
 - Registration fee w/ Stripe API
+
+Walkthrough Video: https://www.loom.com/share/b06446a941fa4103aae810144187f048?sid=b606debb-e0a4-41be-b40f-c9a9f5346989
